@@ -1,0 +1,88 @@
+elements = [
+    {"symbol": "H", "row": 1, "col": 1}, {"symbol": "He", "row": 1, "col": 18},
+    {"symbol": "Li", "row": 2, "col": 1}, {"symbol": "Be", "row": 2, "col": 2},
+    {"symbol": "B", "row": 2, "col": 13}, {"symbol": "C", "row": 2, "col": 14},
+    {"symbol": "N", "row": 2, "col": 15}, {"symbol": "O", "row": 2, "col": 16},
+    {"symbol": "F", "row": 2, "col": 17}, {"symbol": "Ne", "row": 2, "col": 18},
+
+    {"symbol": "Na", "row": 3, "col": 1}, {"symbol": "Mg", "row": 3, "col": 2},
+    {"symbol": "Al", "row": 3, "col": 13}, {"symbol": "Si", "row": 3, "col": 14},
+    {"symbol": "P", "row": 3, "col": 15}, {"symbol": "S", "row": 3, "col": 16},
+    {"symbol": "Cl", "row": 3, "col": 17}, {"symbol": "Ar", "row": 3, "col": 18},
+
+    {"symbol": "K", "row": 4, "col": 1}, {"symbol": "Ca", "row": 4, "col": 2},
+    {"symbol": "Sc", "row": 4, "col": 3}, {"symbol": "Ti", "row": 4, "col": 4},
+    {"symbol": "V", "row": 4, "col": 5}, {"symbol": "Cr", "row": 4, "col": 6},
+    {"symbol": "Mn", "row": 4, "col": 7}, {"symbol": "Fe", "row": 4, "col": 8},
+    {"symbol": "Co", "row": 4, "col": 9}, {"symbol": "Ni", "row": 4, "col": 10},
+    {"symbol": "Cu", "row": 4, "col": 11}, {"symbol": "Zn", "row": 4, "col": 12},
+    {"symbol": "Ga", "row": 4, "col": 13}, {"symbol": "Ge", "row": 4, "col": 14},
+    {"symbol": "As", "row": 4, "col": 15}, {"symbol": "Se", "row": 4, "col": 16},
+    {"symbol": "Br", "row": 4, "col": 17}, {"symbol": "Kr", "row": 4, "col": 18},
+
+    {"symbol": "Rb", "row": 5, "col": 1}, {"symbol": "Sr", "row": 5, "col": 2},
+    {"symbol": "Y", "row": 5, "col": 3}, {"symbol": "Zr", "row": 5, "col": 4},
+    {"symbol": "Nb", "row": 5, "col": 5}, {"symbol": "Mo", "row": 5, "col": 6},
+    {"symbol": "Tc", "row": 5, "col": 7}, {"symbol": "Ru", "row": 5, "col": 8},
+    {"symbol": "Rh", "row": 5, "col": 9}, {"symbol": "Pd", "row": 5, "col": 10},
+    {"symbol": "Ag", "row": 5, "col": 11}, {"symbol": "Cd", "row": 5, "col": 12},
+    {"symbol": "In", "row": 5, "col": 13}, {"symbol": "Sn", "row": 5, "col": 14},
+    {"symbol": "Sb", "row": 5, "col": 15}, {"symbol": "Te", "row": 5, "col": 16},
+    {"symbol": "I", "row": 5, "col": 17}, {"symbol": "Xe", "row": 5, "col": 18},
+
+    {"symbol": "Cs", "row": 6, "col": 1}, {"symbol": "Ba", "row": 6, "col": 2},
+    # Lanthanides start after Ba at col 3 (usually shown separately)
+    {"symbol": "La", "row": 8, "col": 4}, {"symbol": "Ce", "row": 8, "col": 5},
+    {"symbol": "Pr", "row": 8, "col": 6}, {"symbol": "Nd", "row": 8, "col": 7},
+    {"symbol": "Pm", "row": 8, "col": 8}, {"symbol": "Sm", "row": 8, "col": 9},
+    {"symbol": "Eu", "row": 8, "col": 10},{"symbol": "Gd", "row": 8, "col": 11},
+    {"symbol": "Tb", "row": 8, "col": 12},{"symbol": "Dy", "row": 8, "col": 13},
+    {"symbol": "Ho", "row": 8, "col": 14},{"symbol": "Er", "row": 8, "col": 15},
+    {"symbol": "Tm", "row": 8, "col": 16},{"symbol": "Yb", "row": 8, "col": 17},
+    {"symbol": "Lu", "row": 8, "col": 18},
+
+    {"symbol": "Hf", "row": 6, "col": 4}, {"symbol": "Ta", "row": 6, "col": 5},
+    {"symbol": "W", "row": 6, "col": 6}, {"symbol": "Re", "row": 6, "col": 7},
+    {"symbol": "Os", "row": 6, "col": 8}, {"symbol": "Ir", "row": 6, "col": 9},
+    {"symbol": "Pt", "row": 6, "col": 10}, {"symbol": "Au", "row": 6, "col": 11},
+    {"symbol": "Hg", "row": 6, "col": 12}, {"symbol": "Tl", "row": 6, "col": 13},
+    {"symbol": "Pb", "row": 6, "col": 14}, {"symbol": "Bi", "row": 6, "col": 15},
+    {"symbol": "Po", "row": 6, "col": 16}, {"symbol": "At", "row": 6, "col": 17},
+    {"symbol": "Rn", "row": 6, "col": 18},
+
+    {"symbol": "Fr", "row": 7, "col": 1}, {"symbol": "Ra", "row": 7, "col": 2},
+    # Actinides start after Ra at col 3 (usually shown separately)
+    {"symbol": "Ac", "row": 9, "col": 4}, {"symbol": "Th", "row": 9, "col": 5},
+    {"symbol": "Pa", "row": 9, "col": 6}, {"symbol": "U", "row": 9, "col": 7},
+    {"symbol": "Np", "row": 9, "col": 8}, {"symbol": "Pu", "row": 9, "col": 9},
+    {"symbol": "Am", "row": 9, "col": 10}, {"symbol": "Cm", "row": 9, "col": 11},
+    {"symbol": "Bk", "row": 9, "col": 12}, {"symbol": "Cf", "row": 9, "col": 13},
+    {"symbol": "Es", "row": 9, "col": 14}, {"symbol": "Fm", "row": 9, "col": 15},
+    {"symbol": "Md", "row": 9, "col": 16}, {"symbol": "No", "row": 9, "col": 17},
+    {"symbol": "Lr", "row": 9, "col": 18},
+
+    {"symbol": "Rf", "row": 7, "col": 4}, {"symbol": "Db", "row": 7, "col": 5},
+    {"symbol": "Sg", "row": 7, "col": 6}, {"symbol": "Bh", "row": 7, "col": 7},
+    {"symbol": "Hs", "row": 7, "col": 8}, {"symbol": "Mt", "row": 7, "col": 9},
+    {"symbol": "Ds", "row": 7, "col": 10}, {"symbol": "Rg", "row": 7, "col": 11},
+    {"symbol": "Cn", "row": 7, "col": 12}, {"symbol": "Nh", "row": 7, "col": 13},
+    {"symbol": "Fl", "row": 7, "col": 14}, {"symbol": "Mc", "row": 7, "col": 15},
+    {"symbol": "Lv", "row": 7, "col": 16}, {"symbol": "Ts", "row": 7, "col": 17},
+    {"symbol": "Og", "row": 7, "col": 18},
+]
+
+max_cols = 18
+max_rows = 9
+
+def get_symbol(row, col):
+    for el in elements:
+        if el["row"] == row and el["col"] == col:
+            return el["symbol"]
+    return "  "
+
+for row in range(1, max_rows + 1):
+    row_str = ""
+    for col in range(1, max_cols + 1):
+        symbol = get_symbol(row, col)
+        row_str += f"{symbol:3}"
+    print(row_str)
