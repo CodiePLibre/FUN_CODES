@@ -1,0 +1,33 @@
+tasks = []
+
+while True:
+    stuff = str(input("Enter stuff to do:(Enter -1 to stop): "))
+    if stuff == "-1":
+        break
+    tasks.append(stuff)
+
+print()
+print("Things to do:")
+for item in tasks:
+    print(item)
+    
+
+while tasks:
+    print()
+    done = input("Enter a task you have done: ")
+    if done in tasks:
+        tasks.remove(done)
+        print(f"Removed '{done}' from the list.")
+        print()
+        
+    else:
+        print(f"Task '{done}' not found in the list.")
+        print()
+        
+    print("Things to do:")
+    for item in tasks:
+        print(item)
+        
+print()
+print("Good job for Doing everything. See you tomorrow")
+print("Program exiting.")
